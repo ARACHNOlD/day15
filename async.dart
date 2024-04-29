@@ -5,7 +5,7 @@ void SayHi() {
 
 Future waitfor(int a) {
   return Future.delayed(Duration(seconds: a), () {
-    print("wait");
+    print("waited for $a second");
   });
 }
 
